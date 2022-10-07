@@ -26,7 +26,7 @@ class Student extends Person {
     public int $studentNumber ;
     public int $averageMark ; 
 
-    public function itEligibleToEnroll(string ):bool{
+    public function itEligibleToEnroll(string $studentadmin ):bool{
 
     }
 
@@ -71,7 +71,7 @@ class Professor extends Person{
 }
 
 
-
+$student = new Student("salaire", "Staff numero", "Année de service", "Numero de classe");
 
 
 
