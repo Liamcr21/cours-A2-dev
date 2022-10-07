@@ -1,0 +1,248 @@
+Début
+lire a
+c = a * 1.2
+lire c
+Fin
+
+
+
+
+<?php
+
+echo"prix";
+
+$a = trim(fgets(stdin));
+
+$i = (int)$a * 1.2;
+
+echo $i;
+?>
+
+
+
+
+echo"Nombre";
+
+$a = trim(fgets(stdin));
+
+$i = $a * $a;
+
+echo $i;
+
+?>
+
+
+
+
+Début 
+Ecrire "votre nom "
+Lire  nom  
+Ecrire "votre prenon"
+Lire  prenon
+aficher"Bonjour ", nom, prenon
+fin
+
+
+<?php
+
+echo"Votre Nom", "\n";
+
+$nom = trim(fgets(STDIN));
+
+echo"Votre prénom", "\n";
+
+$prenom = trim(fgets(STDIN));
+
+echo "Bonjour " , $nom ," ", $prenom;
+
+?>
+
+
+
+
+
+
+
+
+Debut
+Ecrire "nombre"
+lire nombre
+Si nombre >=0 alors
+écrire "positif"
+Sinon 
+écrire "négatif"
+finsi
+fin
+
+<?php
+
+echo"Un nombre postif ou négatif", "\n";
+
+$nombre = trim(fgets(STDIN));
+
+if ($nombre >= 0){
+    echo"Positif", "\n";
+}
+
+else {
+    echo"Negatif", "\n";
+    }
+
+
+
+
+
+
+
+Debut
+Ecrire "nombre"
+lire nombre
+Si nombre > 0 alors
+écrire "positif"
+Sinon nombre < 0 alors
+écrire "négatif"
+Sinon 
+écrire "le nombre est nul"
+finsi
+fin
+
+<?php
+
+echo"Un nombre postif ou négatif", "\n";
+
+$nombre = trim(fgets(STDIN));
+
+if ($nombre > 0){
+    echo"Positif", "\n";
+}
+
+elseif ($nombre < 0) {
+    echo"Negatif", "\n";
+    }
+
+else{
+    echo"Le nombre est nul";
+}
+
+?>
+
+
+
+Début
+Ecrire "Votre age"
+Lire age
+Si age >= 18 ET age <= 25 alors
+écrire "tarif réduit"
+Sinon
+écrire "Plein tarif"
+Finsi
+Fin
+
+
+<?php
+
+echo"Votre age", "\n";
+
+$nombre = trim(fgets(STDIN));
+
+if ($nombre >= 18 && $nombre <= 25 ){
+    echo"Tarif réduit", "\n";
+}
+
+
+else{
+    echo"Plein tarif";
+}
+
+?>
+
+
+
+
+
+
+
+Debut
+echo "un nombre"
+lire nombre
+i = 0
+tanque i <= 10
+r = nombre*i
+echo nombre, "x", i, "=", r
+i++ (i = i+1)
+fin tant que
+fin
+
+
+
+<?php
+
+echo"Un nombre", "\n";
+
+$nombre = (int)trim(fgets(STDIN));
+$i = 0;
+
+while ( $i <=10){
+    $r = $nombre*$i;
+
+echo $nombre, "x" , $i , "=", $r, "\n";
+
+$i++;
+}
+?>
+
+
+
+
+
+
+
+
+
+Debut
+	echo "un nombre"
+	lire nombre
+	tanque nombre >= 0 faire
+		echo nombre
+		nombre = nombre - 1
+	fintantque
+
+fin
+
+
+<?php
+
+echo"Un nombre", "\n";
+
+$nombre = (int)trim(fgets(STDIN));
+
+while ( $nombre >=0){
+$nombre--;
+echo $nombre ,"\n";
+
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Debut
+
+n = 5
+i = 0
+pour i <= 10
+r = n*i
+echo n, "x", i, "=", r
+i++ (i = i+1)
+finpour
+fin

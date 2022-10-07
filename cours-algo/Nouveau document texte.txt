@@ -1,0 +1,1 @@
+ecrire un algorithme qui fait deviner à l'utilisateur un nombre , en lui disant si il est au dessus ou en dessous
