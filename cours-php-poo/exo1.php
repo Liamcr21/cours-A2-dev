@@ -67,7 +67,7 @@ class Professor extends Person{
     $this->yearsofService = $anneeservice;
     $this->numberOfClasses= $nbclasse;
 }
-ccc
+
 }
 
 
