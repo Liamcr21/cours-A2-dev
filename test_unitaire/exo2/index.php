@@ -5,7 +5,6 @@ function add($nbr, $nbr2){
     $cal = ($nbr + $nbr2);
     return $cal;
 }
-
 function sous($nbr, $nbr2){
     $cal = ($nbr - $nbr2);
     return $cal;
