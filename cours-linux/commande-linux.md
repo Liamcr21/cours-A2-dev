@@ -21,3 +21,5 @@ fichier machine :
 - var : variable 
 
 
+pipe = |
+grep monmot = rechercher partout où apparait monmot
