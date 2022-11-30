@@ -23,3 +23,14 @@ fichier machine :
 
 pipe = |
 grep monmot = rechercher partout où apparait monmot
+
+
+'>' = redirige la sortie
+; = séparateur
+&& = et 
+|| = ou
+
+
+sh = share
+echo = echo 
+zsh = 
